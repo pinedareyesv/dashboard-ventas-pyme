@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html  lang="es">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=">
+    <meta name="viewport" content="width=device-width, 
+        initial-scale=1.0">
         <title>Dashboard Ventas</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
+        <div class="layout">
+        <aside class="sidebar">
+            <p>Sidebar</p>
+        </aside>    
+
+  
+
+        <header class="header">
             <h1>Ventas Pyme</h1>
             <nav>
                 
@@ -17,14 +24,22 @@
                 
             </nav>
         </header>
-        <main>
+         <main class="main">
         <section>
-            <h2>Resumen del mes</h2>
-            <p>Aquí irán las tarjetas KPI.</p>
-        </section>
-    </main>
+        <h2>Resumen del mes</h2>
+        <div class="kpi-cards">
+        <div class="kpi-card">Ventas totales</div>
+        <div class="kpi-card">Ganancia</div>
+        <div class="kpi-card">Pedidos</div>
+        <div class="kpi-card">Clientes</div>
+         </div>
+            </section>
+        </main>
+    </div>
+
     <footer>
-        <p>VentasPyme — hecho por Victoria</p>
+        <p>VentasPyme — hecho por Gabriel</p>
     </footer>
 </body>
 </html>
+
