@@ -17,6 +17,7 @@ nav a {
     text-decoration: none;
     margin-left: 20px;
 }
+
 .layout {
     display: grid;
     grid-template-columns: 220px 1fr;
