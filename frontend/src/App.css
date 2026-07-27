@@ -31,3 +31,23 @@ body {
   font-weight: 700;
   color: #111827;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar kpis";
+  min-height: 100vh;
+  text-align: left;
+  align-content: start;
+}
+
+.sidebar { grid-area: sidebar; }
+.header  { grid-area: header; }
+.kpi-cards { grid-area: kpis; }
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
