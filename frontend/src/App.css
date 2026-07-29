@@ -51,3 +51,14 @@ body {
   list-style: none;
   padding: 0;
 }
+.sidebar li {
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+
+.sidebar li.activo {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+}

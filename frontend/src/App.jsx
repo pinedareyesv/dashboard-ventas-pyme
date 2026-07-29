@@ -9,7 +9,7 @@ function App() {
     
     <div className="layout">
     <Sidebar />
-    <Header />
+    <Header titulo="Dashboard de Ventas" subtitulo="Resumen general del negocio" />
     <div className="kpi-cards">
       <KPICard titulo="Ventas totales" valor="$2.3M" />
       <KPICard titulo="Ganancia" valor="$286K" />

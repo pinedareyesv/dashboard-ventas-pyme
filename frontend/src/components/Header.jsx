@@ -1,8 +1,8 @@
-function Header() {
+function Header({ titulo, subtitulo }) {
   return (
     <header className="header">
-      <h1>Dashboard de Ventas</h1>
-      <p>Resumen general del negocio</p>
+      <h1>{titulo}</h1>
+      <p>{subtitulo}</p>
     </header>
   );
 }
